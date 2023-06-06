@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500;600;700;900&display=swap');
+
+* {
+    font-family: 'Noto Serif KR', serif;
+}
+
+body {
+    background-color: rgb(163, 210, 231);
+
+}
+
+#main {
+    background-color: whitesmoke;
+    width: 80%;
+    text-align: center;
+    border-radius: 8px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.question_list {
+    width: 80%;
+    text-align: center;
+    visibility: hidden;
+}
+
+.qBox {
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    width: 100%;
+}
+
+.answerBox {
+    background-color: whitesmoke;
+    border-radius: 8px;
+    display: block;
+    /* width: 100%; */
+    border: 0;
+    font-size: 20px;
+}
+
+.btnBox {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.show {
+    visibility: visible;
+}
+.hidden{
+    opacity: 0;
+    transition: opacity 0.5s;
+    visibility: hidden;
+}
+
+.start {
+    display: inline-grid;
+}
+.progress{
+    width: 80%;
+    text-align: center;
+}
+
+#result{
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    width: 90%;
+    margin-left: 3rem;
+}
+
+.result_img{
+    width: 350px;
+}
+.alert-show{
+    position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+@media (max-width: 767px) { /* 휴대폰 화면 크기에 적용 */
+    .alert-show {
+      top: 20%; /* 상단으로부터 20% 위치에 배치 */
+    }
+  }
+  
+/* 깜빡이는 화살표 */
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .material-icons.md-36 {
+    animation: blink 1s infinite;
+  }
+/* 깜빡이는 화살표 끝*/
+
+/* 라디오 버튼 레이블에 강조 효과 주기 */
+label input[type="radio"]:hover + span,
+label input[type="radio"]:focus + span {
+  /* 강조 효과를 추가할 스타일을 지정하세요 */
+  /* 예시: */
+  font-weight: bold;
+}
+
+/* 터치 효과 (휴대폰 화면에서) */
+@media (hover: none) {
+  label input[type="radio"]:active + span {
+    /* 강조 효과를 추가할 스타일을 지정하세요 */
+    /* 예시: */
+    font-weight: bold;
+  }
+}
