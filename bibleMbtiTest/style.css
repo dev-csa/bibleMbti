@@ -17,7 +17,7 @@ body {
 }
 
 p {
-    font-size: 20px;
+    font-size: 1.3rem;
 }
 
 .question_list {
@@ -30,7 +30,7 @@ p {
     background-color: whitesmoke;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.6rem;
     width: 100%;
 }
 
@@ -40,7 +40,11 @@ p {
     display: block;
     /* width: 100%; */
     border: 0;
-    font-size: 20px;
+    font-size: 1.3rem;
+}
+
+.answerBox label{
+    padding: 0.2rem;
 }
 
 .btnBox {
@@ -70,7 +74,7 @@ p {
     background-color: whitesmoke;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.6rem;
     width: 90%;
     margin-left: 3rem;
 }
@@ -89,6 +93,7 @@ p {
     .alert-show {
       top: 20%; /* 상단으로부터 20% 위치에 배치 */
     }
+
   }
   
 /* 깜빡이는 화살표 */
