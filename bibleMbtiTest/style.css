@@ -93,7 +93,15 @@ p {
     .alert-show {
       top: 20%; /* 상단으로부터 20% 위치에 배치 */
     }
-
+    .qBox{
+        font-size: 1.8rem;
+    }
+    .answerBox{
+        font-size: 1.6rem;
+    }
+    #result{
+        font-size: 1.8rem;
+    }
   }
   
 /* 깜빡이는 화살표 */
