@@ -16,9 +16,9 @@ body {
     border-radius: 8px;
 }
 
-p {
+/* p {
     font-size: 1.3rem;
-}
+} */
 
 .question_list {
     width: 80%;
@@ -101,6 +101,18 @@ p {
     }
     #result{
         font-size: 1.8rem;
+    }
+  }
+}
+@media (min-width: 1024px) { /* 휴대폰 화면 크기에 적용 */
+    .qBox{
+        font-size: 1.6rem;
+    }
+    .answerBox{
+        font-size: 1.3rem;
+    }
+    #result{
+        font-size: 1.6rem;
     }
   }
   
