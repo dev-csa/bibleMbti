@@ -16,9 +16,7 @@ body {
     border-radius: 8px;
 }
 
-/* p {
-    font-size: 1.3rem;
-} */
+
 
 .question_list {
     width: 80%;
@@ -30,7 +28,7 @@ body {
     background-color: whitesmoke;
     text-align: center;
     border-radius: 8px;
-    font-size: 1.6rem;
+    /* font-size: 1.6rem; */
     width: 100%;
 }
 
@@ -40,7 +38,7 @@ body {
     display: block;
     /* width: 100%; */
     border: 0;
-    font-size: 1.3rem;
+    /* font-size: 1.3rem; */
 }
 
 .answerBox label{
@@ -74,13 +72,13 @@ body {
     background-color: whitesmoke;
     text-align: center;
     border-radius: 8px;
-    font-size: 1.6rem;
+    /* font-size: 1.6rem; */
     width: 90%;
-    margin-left: 3rem;
+    margin-left: 1.5rem;
 }
 
 .result_img{
-    width: 350px;
+    width: 15rem;
 }
 .alert-show{
     position: fixed;
@@ -93,18 +91,16 @@ body {
     .alert-show {
       top: 20%; /* 상단으로부터 20% 위치에 배치 */
     }
-    .qBox{
-        font-size: 1.8rem;
-    }
-    .answerBox{
-        font-size: 1.6rem;
-    }
     #result{
-        font-size: 1.8rem;
+        width: 95%;
+        margin-left: 1rem;
     }
   }
-}
-@media (min-width: 1024px) { /* 휴대폰 화면 크기에 적용 */
+
+@media (min-width: 1024px) { /* 데스크탑 화면 크기에 적용 */
+    p {
+        font-size: 1.5rem;
+    }
     .qBox{
         font-size: 1.6rem;
     }
